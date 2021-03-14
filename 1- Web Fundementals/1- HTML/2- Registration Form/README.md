@@ -1,4 +1,4 @@
-Registration Form
+Registration Form 
 
 Now that we've learned about all of the different types of form tags, let's create a registration form using only HTML. When registering for any website, whether it's for an email account, a social media platform, or even this bootcamp, you are submitting a form! You will be using lots and lots of forms over the next few months to send data to your backend so let's get comfortable creating some forms.
 
