@@ -14,7 +14,7 @@ Start coding!
 Please fix this very ugly code!
 
 Create a new file in your Text Editor (VS Code, Atom, Sublime...) and properly indent the code below:
-//
+<!--
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,9 +31,9 @@ I love HTML!
 </p>
 </body>
 </html>
-//
+-->
 Please note that most of the tags in the code below have not been discussed yet. But at this point, you already know what opening and closing tags look like. Without knowing the HTML tags, determine what the parents, children, and siblings are by properly indenting the code below:
-//
+<!--
 <!DOCTYPE html>
 <html>
     <head>
@@ -68,4 +68,4 @@ Please note that most of the tags in the code below have not been discussed yet.
     </ul>
     </body>
 </html>
-//
+-->
