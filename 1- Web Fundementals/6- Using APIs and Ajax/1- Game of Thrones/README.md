@@ -1,0 +1,5 @@
+<div class="module_description active_lesson_with_video ">
+									<h1>Game of Thrones</h1><p>
+ </p><figure><img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/gameofthronesv3.png"></figure><p><br></p><p>The Game of Thrones API is located here:&nbsp;<a href="https://anapioficeandfire.com/" target="_blank">ASOIAF</a>.&nbsp;Their documentation is great and will show how to use their API. Images you may use are found here:&nbsp;<a href="http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_3926/handouts/chapter3926_7250_gameofthrones.zip" target="_blank">Houses</a></p><p>
+ <strong>Note: An API Key is not needed.</strong></p><p>When a User clicks an Image, the House Details should be appended or updated with the correct House information pulled from the API. For full names of the houses, you may check&nbsp;<a href="https://www.quora.com/What-are-the-names-of-the-noble-houses-and-the-Seven-Kingdoms-of-Westeros" target="_blank">this entry</a>.</p>
+								</div>
