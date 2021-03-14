@@ -1,4 +1,5 @@
 Indentation Practice
+
 Set up your editor:
 
 We recommend VS Code: https://code.visualstudio.com/download.
