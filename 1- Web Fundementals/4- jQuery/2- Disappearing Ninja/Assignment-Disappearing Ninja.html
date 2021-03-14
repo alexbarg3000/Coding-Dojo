@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    img {
+        width: 200px;
+    }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('img').click(function(){
+                $(this).toggle("slow");
+            });
+            $("#click").click(function(){
+            $("img").show("slow");
+            });
+        });
+    </script>
+</head>
+<body>
+    <dv>
+        <img src="ninja 1.jpg"/>
+        <img src="ninja 2.jpg"/>
+        <img src="ninja 3.jpg"/>
+        <img src="ninja 4.jpg"/>
+        <img src="ninja 5.jpg"/>
+        <img src="ninja 6.jpg"/>
+        <img src="ninja 7.jpg"/>
+        <img src="ninja 8.jpg"/>
+    </dv>
+    <br><br>
+    <button id="click">Restore</button>
+</body>
+</html>

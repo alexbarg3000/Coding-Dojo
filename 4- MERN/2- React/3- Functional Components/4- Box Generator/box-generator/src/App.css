@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Sacramento&display=swap');
+
+html {
+  background: black;
+  height: 100vh;
+}
+
+.body {
+  background: black;
+  margin: 100px auto;
+  font-family: "Prata", sans-serif;
+}
+
+.header {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-bottom:50px;
+}
+
+.welcome {
+  font-family: "Sacramento", sans-serif;
+  font-size:100px;
+}
+
+.input {
+  display:flex;
+}

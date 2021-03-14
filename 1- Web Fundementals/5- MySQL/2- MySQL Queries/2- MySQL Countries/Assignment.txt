@@ -1,0 +1,15 @@
+1- select countries.name as name, languages.language as language, languages.percentage as percentage from countries,languages where countries.id = languages.country_id and languages.language = 'Slovene' order by languages.percentage desc;
+
+2- select countries.name as name, count(cities.country_id) as totalCities from countries, cities where countries.id=cities.country_id group by name order by totalCities desc;
+
+3- select cities.name as name, cities.population as population from countries, cities where countries.id=cities.country_id and countries.name = "Mexico" and cities.population>500000 order by population desc;
+
+4- select countries.name as name, languages.language as language, languages.percentage as percentage from countries,languages where countries.id = languages.country_id and languages.percentage>89 order by percentage desc;
+
+5- select countries.name as name, countries.population as population, countries.surface_area as area from countries where surface_area<501 and population> 100000;
+
+6- select countries.name,countries.government_form, countries.capital, countries.life_expectancy from countries where government_form= "Constitutional Monarchy" and capital>200 and life_expectancy>75;
+
+7- select countries.name,cities.name,cities.district,cities.population from countries, cities where countries.id=cities.country_id and cities.district="Buenos Aires" and countries.name="Argentina"and cities.population>500000 group by cities.name;
+
+8- select countries.region, count(countries.id) as totalcountries from countries group by countries.region order by totalcountries desc;

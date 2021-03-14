@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "6036be5773f36c2bd0f7878b"
+  },
+  "name": "Allergy and immunology",
+  "description": "Specialists in allergy and immunology work with both adult and pediatric patients suffering from allergies and diseases of the respiratory tract or immune system. They may help patients suffering from common diseases such as asthma, food and drug allergies, immune deficiencies, and diseases of the lung. Specialists in allergy and immunology can pursue opportunities in research, education, or clinical practice.",
+  "img": "allergy.jpg",
+  "createdAt": {
+    "$date": "2021-02-24T21:00:07.124Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T21:00:07.124Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036be9673f36c2bd0f7878c"
+  },
+  "name": "Anesthesiology",
+  "description": "Anesthesiology is the branch of medicine dedicated to pain relief for patients before, during, and after surgery. The American Board of Anesthesiology outlines the following subspecialties within the field in the following areas of care:\n\n• Critical care medicine\n• Hospice and palliative care\n• Pain medicine\n• Pediatric anesthesiology\n• Sleep medicine",
+  "img": "anesthesiologist.jpg",
+  "createdAt": {
+    "$date": "2021-02-24T21:01:10.717Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T21:01:10.717Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bebb73f36c2bd0f7878d"
+  },
+  "name": "Dermatology",
+  "description": "Dermatologists are physicians who treat adult and pediatric patients with disorders of the skin, hair, nails, and adjacent mucous membranes. They diagnose everything from skin cancer, tumors, inflammatory diseases of the skin, and infectious diseases. They also perform skin biopsies and dermatological surgical procedures.\n• Critical care medicine\n• Hospice and palliative care\n• Pain medicine\n• Pediatric anesthesiology\n• Sleep medicine",
+  "img": "dermatologist.jpg",
+  "createdAt": {
+    "$date": "2021-02-24T21:01:47.241Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T21:01:47.241Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bee173f36c2bd0f7878e"
+  },
+  "name": "Diagnostic radiology",
+  "description": "Physicians specializing in diagnostic radiology are trained to diagnose illnesses in patients through the use of x-rays, radioactive substances, sound waves in ultrasounds, or the body’s natural magnetism in magnetic resonance images (MRIs).• Critical care medicine\n• Hospice and palliative care\n• Pain medicine\n• Pediatric anesthesiology\n• Sleep medicine",
+  "img": "diagnostic_radiology.png",
+  "createdAt": {
+    "$date": "2021-02-24T21:02:25.908Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T21:02:25.908Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bf0773f36c2bd0f7878f"
+  },
+  "name": "Emergency medicine",
+  "description": "Physicians specializing in emergency medicine provide care for adult and pediatric patients in emergency situations. These specialists provide immediate decision making and action to save lives and prevent further injury. They help patients in the pre-hospital setting by directing emergency medical technicians and assisting patients once they arrive in the emergency department.",
+  "img": "emergency.jpeg",
+  "createdAt": {
+    "$date": "2021-02-24T21:03:03.950Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T21:03:03.950Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bf3e73f36c2bd0f78790"
+  },
+  "name": "Ophthalmology",
+  "description": "Physicians specializing in ophthalmology develop comprehensive medical and surgical care of the eyes. Ophthalmologists diagnose and treat vision problems. They may treat strabismus, diabetic retinopathy, or perform surgeries on cataracts or corneal transplantation.",
+  "img": "ophthalmology.jpg",
+  "createdAt": {
+    "$date": "2021-02-24T21:03:58.608Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T21:03:58.608Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bf6d73f36c2bd0f78791"
+  },
+  "name": "Physical medicine",
+  "description": "Physicians specializing in physical medicine and rehabilitation work to help patients with disabilities of the brain, spinal cord, nerves, bones, joints, ligaments, muscles, and tendons. Physiatrists work with patients of all ages and design care plans for conditions, such as spinal cord or brain injury, stroke, multiple sclerosis, and musculoskeletal and pediatric rehabilitation. Unlike many other medical specialties, physiatrists work to improve patient quality of life, rather than seek medical cures.",
+  "img": "Physical-medicine-and-rehabilitation.jpg",
+  "createdAt": {
+    "$date": "2021-02-24T21:04:45.751Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T21:04:45.751Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bf9873f36c2bd0f78792"
+  },
+  "name": "Surgery",
+  "description": "Physicians specializing in surgery can choose to become general surgeons or pursue a subspecialty in a specific area of the body, type of patient, or type of surgery. General surgeons provide a wide variety of life-saving surgeries, such as appendectomies and splenectomies. They receive broad training on human anatomy, physiology, intensive care, and wound healing.",
+  "img": "surgery.jpg",
+  "createdAt": {
+    "$date": "2021-02-24T21:05:28.172Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T21:05:28.172Z"
+  },
+  "__v": 0
+}]

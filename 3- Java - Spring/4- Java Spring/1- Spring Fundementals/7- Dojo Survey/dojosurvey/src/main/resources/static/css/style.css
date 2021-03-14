@@ -1,0 +1,20 @@
+@charset "UTF-8";
+* {
+    margin: 1% 2%;
+}
+.main {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    /* text-align: center; */
+    display: inline-block;
+    border-style: outset;
+}
+
+.padding {
+    padding-top: 10px;
+}
+
+.button-margin {
+    margin-bottom: 5px;
+} 

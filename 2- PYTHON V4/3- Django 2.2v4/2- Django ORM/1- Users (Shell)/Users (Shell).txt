@@ -1,0 +1,74 @@
+In [2]: from users_app.models import *
+
+In [3]: user_1 = Users.objects.create(first_name="Alex", last_name="Barg", email_address="alexbarg3000@yahoo.com", age=31)
+
+In [4]: user_2 = Users.objects.create(first_name="Ammar", last_name="Banan", email_address="ammar_ban@yahoo.com", age=24)
+
+In [5]: user_3 = Users.objects.create(first_name="Ahmad", last_name="Zghayar", email_address="zghayar@yahoo.com", age=30)
+
+
+
+In [6]: Users.objects.all()
+Out[6]: <QuerySet [<Users: Users object (1)>, <Users: Users object (2)>, <Users: Users object (3)>]>
+
+
+
+In [14]: Users.objects.first()
+Out[14]: <Users: Users object (1)>
+
+
+
+In [15]: Users.objects.last()
+Out[15]: <Users: Users object (3)>
+
+
+
+In [17]: Users.objects.first().__dict__
+Out[17]: 
+{'_state': <django.db.models.base.ModelState at 0x1f4ddfea610>,
+ 'id': 1,
+ 'first_name': 'Alex',
+ 'last_name': 'Barg',
+ 'email_address': 'alexbarg3000@yahoo.com',
+ 'age': 31,
+ 'created_at': datetime.datetime(2020, 12, 15, 13, 4, 37, 758481, tzinfo=<UTC>),
+ 'updated_at': datetime.datetime(2020, 12, 15, 13, 4, 37, 758481, tzinfo=<UTC>)}
+
+
+
+In [18]: Users.objects.last().__dict__
+Out[18]: 
+{'_state': <django.db.models.base.ModelState at 0x1f4de072a00>,
+ 'id': 3,
+ 'first_name': 'Ahmad',
+ 'last_name': 'Zghayar',
+ 'email_address': 'zghayar@yahoo.com',
+ 'age': 30,
+ 'created_at': datetime.datetime(2020, 12, 15, 13, 10, 49, 45305, tzinfo=<UTC>),
+ 'updated_at': datetime.datetime(2020, 12, 15, 13, 10, 49, 45305, tzinfo=<UTC>)}
+
+ Users.objects.all()
+Out[2]: <QuerySet [First Name: Alex, Last Name:Barg, Email address: alexbarg3000@yahoo.com, Age: 31, created at: 2020-12-15 13:04:37.758481+00:00, updated at: 2020-12-15 13:04:37.758481+00:00, First Name: Ammar, Last Name:Banan, Email address: ammar_ban@yahoo.com, Age: 24, created at: 2020-12-15 13:10:08.202064+00:00, updated at: 2020-12-15 13:10:08.202064+00:00, First Name: Ahmad, Last Name:Zghayar, Email address: zghayar@yahoo.com, Age: 30, created at: 2020-12-15 13:10:49.045305+00:00, updated at: 2020-12-15 13:10:49.045305+00:00]>
+
+
+In [3]: Users.objects.first()
+Out[3]: First Name: Alex, Last Name:Barg, Email address: alexbarg3000@yahoo.com, Age: 31, created at: 2020-12-15 13:04:37.758481+00:00, updated at: 2020-12-15 13:04:37.758481+00:00
+
+
+In [4]: Users.objects.last()
+Out[4]: First Name: Ahmad, Last Name:Zghayar, Email address: zghayar@yahoo.com, Age: 30, created at: 2020-12-15 13:10:49.045305+00:00, updated at: 2020-12-15 13:10:49.045305+00:00
+
+
+Users.objects.filter(id=3).update(last_name="Pancakes")
+
+
+In [25]: Users.objects.filter(id=2).delete()
+Out[25]: (1, {'users_app.Users': 1})
+
+
+In [26]: Users.objects.all().order_by("first_name")
+Out[26]: <QuerySet [First Name: Ahmad, Last Name:Pancakes, Email address: zghayar@yahoo.com, Age: 30, created at: 2020-12-15 13:10:49.045305+00:00, updated at: 2020-12-15 13:49:53.526559+00:00, First Name: Alex, Last Name:Barg, Email address: alexbarg3000@yahoo.com, Age: 31, created at: 2020-12-15 13:04:37.758481+00:00, updated at: 2020-12-15 13:04:37.758481+00:00]>
+
+
+In [27]: Users.objects.all().order_by("-first_name")
+Out[27]: <QuerySet [First Name: Alex, Last Name:Barg, Email address: alexbarg3000@yahoo.com, Age: 31, created at: 2020-12-15 13:04:37.758481+00:00, updated at: 2020-12-15 13:04:37.758481+00:00, First Name: Ahmad, Last Name:Pancakes, Email address: zghayar@yahoo.com, Age: 30, created at: 2020-12-15 13:10:49.045305+00:00, updated at: 2020-12-15 13:49:53.526559+00:00]>

@@ -1,0 +1,62 @@
+main {
+    margin: auto;
+    width: fit-content;
+    padding: 30px;
+    border: black 3px solid;
+}
+
+.left-margin {
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.submitted {
+    display: block;
+    text-align-last: justify;
+}
+
+.left {
+    left: 110px;
+}
+
+
+/* 
+
+
+h1 {
+    font-size: 13px;
+    border: black solid 3px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+p {
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.time-box {
+    border: black solid 3px;
+    text-align: center;
+    padding: 0px 150px 0px 150px;
+    margin-top: 10px;
+}
+
+main div {
+    text-align-last: center;
+}
+ */
+
+
+/* text-align-last: center; */

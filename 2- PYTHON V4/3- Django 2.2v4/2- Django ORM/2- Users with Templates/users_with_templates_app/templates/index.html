@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <main>
+        <h1>All the Users</h1>
+        <br>
+        <table class="table table-striped table-inverse ">
+            <thead class="thead-inverse">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for values in all_the_users %}
+                <tr>
+                    <td scope="row">{{values.id}}</td>
+                    <td>{{values.first_name}} {{values.last_name}}</td>
+                    <td>{{values.email_address}}</td>
+                    <td>{{values.age}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <br>
+        <h1>Add a User</h1>
+        <br>
+        <form action="create" method="post">
+            {% csrf_token %}
+            <div>
+                First Name <input type='text' name='firstname'> Last Name <input type='text' name='lastname'><br>
+            </div><br>
+            <div>
+                Email: <input type='text' name='email' class="input-1"> Age <input type='text' name='age'><br>
+            </div><br>
+            <input id="button" type='submit' value='Add'>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+ from dojos_and_ninjas_app.models import Dojo,Ninja
+
+In [4]: Dojo.objects.create(name="South Dojo", city="York",state="New York" )
+Out[4]: <Dojo: Dojo object (1)>
+
+In [5]: Dojo.objects.create(name="North Dojo", city="London",state="California" )
+Out[5]: <Dojo: Dojo object (2)>
+
+In [6]: Dojo.objects.create(name="East Dojo", city="Appleton",state="Wisconsin" )
+Out[6]: <Dojo: Dojo object (3)>
+
+
+In [8]: Dojo.objects.filter(id=3).delete()
+Out[8]: (1, {'dojos_and_ninjas_app.Ninja': 0, 'dojos_and_ninjas_app.Dojo': 1})
+
+In [9]: Dojo.objects.filter(id=2).delete()
+Out[9]: (1, {'dojos_and_ninjas_app.Ninja': 0, 'dojos_and_ninjas_app.Dojo': 1})
+
+In [10]: Dojo.objects.filter(id=1).delete()
+Out[10]: (1, {'dojos_and_ninjas_app.Ninja': 0, 'dojos_and_ninjas_app.Dojo': 1})
+
+
+In [11]: Dojo.objects.create(name="Top Dojo", city="Denver",state="Alabama" )
+Out[11]: <Dojo: Dojo object (4)>
+
+In [12]: Dojo.objects.create(name="Bottom Dojo", city="Vegas",state="New Jersey" )
+Out[12]: <Dojo: Dojo object (5)>
+
+In [13]: Dojo.objects.create(name="Right Dojo", city="Dublin",state="California" )
+Out[13]: <Dojo: Dojo object (6)>
+
+
+In [14]: Ninja.objects.create(first_name="Bob", last_name="Dylan", dojo=Dojo.objects.get(id=4))
+Out[14]: <Ninja: Ninja object (1)>
+
+In [15]: Ninja.objects.create(first_name="George", last_name="Reeves", dojo=Dojo.objects.get(id=4))
+Out[15]: <Ninja: Ninja object (2)>
+
+In [16]: Ninja.objects.create(first_name="Barak", last_name="Obama", dojo=Dojo.objects.get(id=4))
+Out[16]: <Ninja: Ninja object (3)>
+
+
+In [17]: Ninja.objects.create(first_name="Lucy", last_name="April", dojo=Dojo.objects.get(id=5))
+Out[17]: <Ninja: Ninja object (4)>
+
+In [18]: Ninja.objects.create(first_name="Jill", last_name="South", dojo=Dojo.objects.get(id=5))
+Out[18]: <Ninja: Ninja object (5)>
+
+In [19]: Ninja.objects.create(first_name="Alice", last_name="North", dojo=Dojo.objects.get(id=5))
+Out[19]: <Ninja: Ninja object (6)>
+
+
+
+In [20]: Ninja.objects.create(first_name="Lizzy", last_name="Black", dojo=Dojo.objects.get(id=6))
+Out[20]: <Ninja: Ninja object (7)>
+
+In [21]: Ninja.objects.create(first_name="Eva", last_name="Brown", dojo=Dojo.objects.get(id=6))
+Out[21]: <Ninja: Ninja object (8)>
+
+In [22]: Ninja.objects.create(first_name="Jenny", last_name="Aniston", dojo=Dojo.objects.get(id=6))
+Out[22]: <Ninja: Ninja object (9)>
+
+
+
+In [23]: Ninja.objects.filter(dojo=Dojo.objects.get(id=4))
+Out[23]: <QuerySet [<Ninja: Ninja object (1)>, <Ninja: Ninja object (2)>, <Ninja: Ninja object (3)>]>
+
+
+
+In [24]: Ninja.objects.filter(dojo=Dojo.objects.get(id=6))
+Out[24]: <QuerySet [<Ninja: Ninja object (7)>, <Ninja: Ninja object (8)>, <Ninja: Ninja object (9)>]>
+
+
+
+Dojo.objects.filter(ninja=Ninja.objects.get(id=9))
+Out[26]: <QuerySet [<Dojo: Dojo object (6)>]>
+
+
+
+In [4]: Dojo.objects.create(name="Air Dojo", city="Mexico City",state="New Mexico", desc="i hate coding dojo")
+Out[4]: <Dojo: Dojo object (7)>

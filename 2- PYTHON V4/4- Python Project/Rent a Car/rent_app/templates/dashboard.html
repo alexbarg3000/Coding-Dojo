@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">About Us</a>
+                <a class="navbar-brand" href="#">Contact Us</a>
+                <a class="navbar-brand" href="#">Terms and Conditions</a>
+                <a class="navbar-brand" href="/car_list">Rent</a>
+                <a class="navbar-brand" href="/logout">Log Out</a>
+            </div>
+        </nav>
+        <div class="text-center">
+            <h1>Dashboard</h1>
+        </div>
+        <h2>Welcome {{request.session.first_name}} {{request.session.last_name}}!!</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="mx-auto" style="width: 300px;">
+                    <br>
+                    <h1>Customer Info</h1>
+                </div>
+                <br>
+                <h2> Customer Info</h2>
+                <h3> First Name: {{request.session.first_name}}</h3>
+                <h3> Last Name: {{request.session.last_name}}</h3>
+                <h3> Phone Number: {{request.session.phone_num}}</h3>
+                <h3> E-mail: {{request.session.email}}</h3>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="mx-auto" style="width: 300px;">
+                    <br>
+                    <h1>Rented Car</h1>
+                </div>
+                <br>
+                <!-- <h2> Rented Car Info</h2>
+                <h3> Brand {{car.brand}}</h3>
+                <h3> Model: {{car.model}}</h3>
+                <h3> Color: {{car.color}}</h3>
+                <h3> Fuel Type: {{car.fuel_type}}</h3>
+                <h3> Year of Production: {{car.production_year}}</h3>
+                <h3> Gear Type: {{car.gear_type}}</h3>
+                <h3> Photo: {{car.photo}}</h3>
+                <h3> Daily Rent: {{car.price}}</h3> -->
+
+            </div>
+
+            <footer class="bg-primary text-white text-center text-lg-start col-12 bg-dark">
+                <!-- Grid container -->
+                <div class="container p-4 bg-dark">
+                    <!--Grid row-->
+                    <div class="row bg-dark">
+                        <!--Grid column-->
+                        <div class="col-12-lg-6 col-md-12 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Contact Us</h5>
+                            <p>
+                                Phone number: 0599-9999-99
+                            </p>
+                            <p>
+                                Email: info@rent-a-car.com
+                            </p>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                </div>
+
+            </footer>
+        </div>
+
+</body>
+
+</html>

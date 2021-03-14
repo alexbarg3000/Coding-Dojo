@@ -1,0 +1,19 @@
+.color-1{
+    background-color: {{color1_html}};
+    width: 40px;
+    height: 40px;
+}
+.color-2{
+    background-color: {{color2_html}};
+    width: 40px;
+    height: 40px;
+}
+main{
+    margin: auto;
+}
+table { 
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: auto;
+}

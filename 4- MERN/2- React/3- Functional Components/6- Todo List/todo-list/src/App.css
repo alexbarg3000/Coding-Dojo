@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Sacramento&display=swap');
+
+* {
+  background:black;
+  color:whitesmoke;
+  font-family:"Libre Baskerville", sans-serif;
+}
+
+.header {
+  font-family: "Sacramento", sans-serif;
+  font-size: 100px;
+  padding:20px;
+}
+
+.App {
+  text-align: center;
+}

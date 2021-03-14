@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "6036d40dcfa5d414446e5d6c"
+  },
+  "time": "15:35",
+  "patient": {
+    "$oid": "6036ce845ba3231d4c733625"
+  },
+  "doctor": {
+    "$oid": "6036b77e6b2f032ed4d01307"
+  },
+  "createdAt": {
+    "$date": "2021-02-24T22:32:45.122Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T22:38:18.444Z"
+  },
+  "__v": 0,
+  "status": true
+},{
+  "_id": {
+    "$oid": "60375ada3e001324bc5932e5"
+  },
+  "status": true,
+  "time": "14:07",
+  "patient": {
+    "$oid": "6036ce845ba3231d4c733625"
+  },
+  "doctor": {
+    "$oid": "6036b7a96b2f032ed4d01308"
+  },
+  "createdAt": {
+    "$date": "2021-02-25T08:07:54.202Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-25T09:35:43.217Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60375ebd3e001324bc5932f0"
+  },
+  "status": true,
+  "time": "15:24",
+  "patient": {
+    "$oid": "6036ce845ba3231d4c733625"
+  },
+  "doctor": {
+    "$oid": "6036b73c6b2f032ed4d01306"
+  },
+  "createdAt": {
+    "$date": "2021-02-25T08:24:29.638Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-25T08:24:42.990Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60376f4d3e001324bc5932f7"
+  },
+  "status": true,
+  "time": "16:35",
+  "patient": {
+    "$oid": "6036ce845ba3231d4c733625"
+  },
+  "doctor": {
+    "$oid": "6036b7a96b2f032ed4d01308"
+  },
+  "createdAt": {
+    "$date": "2021-02-25T09:35:09.256Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-25T09:35:44.914Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603772d53e001324bc5932f9"
+  },
+  "status": true,
+  "time": "23:55",
+  "patient": {
+    "$oid": "6036ce845ba3231d4c733625"
+  },
+  "doctor": {
+    "$oid": "6036b7a96b2f032ed4d01308"
+  },
+  "createdAt": {
+    "$date": "2021-02-25T09:50:13.845Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-25T09:51:34.146Z"
+  },
+  "__v": 0
+}]

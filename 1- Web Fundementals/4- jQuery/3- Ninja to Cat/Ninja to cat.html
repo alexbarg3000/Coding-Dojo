@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    img {
+        width: 200px;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('img').click(function(){
+                $(this).attr('temp',$(this).attr('src')),
+                $(this).attr('src',$(this).attr('alt-src')),$(this).attr('alt-src',$(this).attr('temp'));
+            });
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <img id="pic0" src="img/cat0.png" alt-src ="img/ninja0.png" temp=""/> 
+        <img id="pic1" src="img/cat1.png" alt-src ="img/ninja1.png" temp=""/> 
+        <img id="pic2" src="img/cat2.png" alt-src ="img/ninja2.png" temp=""/> 
+        <img id="pic3" src="img/cat3.png" alt-src ="img/ninja3.png" temp=""/> 
+        <img id="pic4" src="img/cat4.png" alt-src ="img/ninja4.png" temp=""/> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "6036bb0145644126ccbb057c"
+  },
+  "specialization": "Anesthesiology",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "n Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:45:53.964Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:45:53.964Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb3345644126ccbb057d"
+  },
+  "specialization": "Anesthesiology",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:46:43.251Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:46:43.251Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb5145644126ccbb057e"
+  },
+  "specialization": "Allergy and immunology",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:47:13.867Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:47:13.867Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb5345644126ccbb057f"
+  },
+  "specialization": "Allergy and immunology",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:47:15.243Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:47:15.243Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb5e45644126ccbb0580"
+  },
+  "specialization": "Dermatology",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:47:26.547Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:47:26.547Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb5f45644126ccbb0581"
+  },
+  "specialization": "Dermatology",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:47:27.483Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:47:27.483Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb6845644126ccbb0582"
+  },
+  "specialization": "Diagnostic radiology",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:47:36.720Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:47:36.720Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb6945644126ccbb0583"
+  },
+  "specialization": "Diagnostic radiology",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:47:37.623Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:47:37.623Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb7345644126ccbb0584"
+  },
+  "specialization": "Emergency medicine",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:47:47.974Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:47:47.974Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb7445644126ccbb0585"
+  },
+  "specialization": "Emergency medicine",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:47:48.812Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:47:48.812Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb8245644126ccbb0586"
+  },
+  "specialization": "Ophthalmology",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:48:02.406Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:48:02.406Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb8345644126ccbb0587"
+  },
+  "specialization": "Ophthalmology",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:48:03.572Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:48:03.572Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb8d45644126ccbb0588"
+  },
+  "specialization": "Physical medicine and rehabilitation",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:48:13.752Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:48:13.752Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb8e45644126ccbb0589"
+  },
+  "specialization": "Physical medicine and rehabilitation",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:48:14.842Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:48:14.842Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb9845644126ccbb058a"
+  },
+  "specialization": "Surgery",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:48:24.714Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:48:24.714Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036bb9945644126ccbb058b"
+  },
+  "specialization": "Surgery",
+  "education": "P.H.D. in Medicine from Harvard",
+  "about": "In Europe, surgery was mostly associated with barber-surgeons who also used their hair-cutting tools to undertake surgical procedures, often at the battlefield and also for their employers.[6] With advances in medicine and physiology, the professions of barbers and surgeons diverged; by the 19th century barber-surgeons had virtually disappeared, and surgeons were almost invariably qualified doctors who had specialized in surgery.",
+  "createdAt": {
+    "$date": "2021-02-24T20:48:25.549Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-24T20:48:25.549Z"
+  },
+  "__v": 0
+}]

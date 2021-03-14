@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <main>
+        <h1>Welcome to the Great Number Game!</h1>
+        <p>I am thinking of a number between 1 and 100</p>
+        <p>Take a guess!</p>
+
+        <form action='/play' method='post'>
+            {% csrf_token %}
+            <div class="mb-3 row">
+                <input type="text" class="form-control" name="user_state">
+            </div>
+            {% if request.session.user_state == 0 %}
+            <div>
+                <p>Too low!!!</p>
+                <button type="submit" class="btn btn-primary" style="margin-left: 200px;">Submit</button>
+            </div>
+            {% elif request.session.user_state == 1 %}
+            <div>
+                <p>Too high!!!</p>
+                <button type="submit" class="btn btn-primary" style="margin-left: 200px;">Submit</button>
+            </div>
+            {% elif request.session.user_state == 3 %}
+            <div>
+                <button type="submit" class="btn btn-primary" style="margin-left: 200px;">Submit</button>
+            </div>
+            {% elif request.session.user_state == 4 %}
+            <div>
+                <p>Sorry, you lost! The number was {{request.session.cpu_num}} </p>
+                <button type="button" class="btn btn-primary" style="margin-left: 200px;"><a href="/again">Play Again</a></button>
+            </div>
+            {% endif %}
+        </form>
+
+        {% if request.session.user_state == 2 %}
+        <div>
+            <form action="/score" method="GET">
+                <p>{{request.session.user_num}} was the correct number!</p>
+                <input type="submit" value="Check leaderboard!"> Enter username: <input type="text" name="name">
+                <button type="button" class="btn btn-primary" style="margin-left: 200px;"><a href="/again">Play Again</a></button>
+            </form>
+
+        </div>
+        {% endif %}
+        <p>{{request.session.counter}}</p>
+
+    </main>
+</body>
+
+</html>

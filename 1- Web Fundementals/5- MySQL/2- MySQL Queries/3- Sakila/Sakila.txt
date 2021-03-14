@@ -1,0 +1,23 @@
+1- select customer.first_name, customer.last_name, address.city_id, city.city,customer.email, address.address, country.country from city,customer, address,country where address.address_id = customer.address_id and city.city_id = "312" and address.city_id=city.city_id and country.country_id=city.country_id;
+
+2- select film.title, film.description, film.release_year, film.rating, film.special_features, category.name from film, category,film_category where film.film_id=film_category.film_id and category.category_id=film_category.category_id and category.name = 'Comedy';
+
+3- select actor.actor_id,concat_ws(" ",actor.first_name,actor.last_name) as name, film.title, film.description, film.release_year from actor,film,film_actor where film.film_id=film_actor.film_id and film_actor.actor_id=actor.actor_id and actor.actor_id="5";
+
+4- select customer.first_name,customer.last_name,customer.email,address.address from customer,address,city where customer.address_id=address.address_id and city.city_id = address.address_id and customer.store_id="1" and address.city_id in (1,42,312,459);
+
+5- select film.title, film.description, film.release_year, film.rating, film.special_features
+from film,actor, film_actor
+where film.film_id = film_actor.film_id and film_actor.actor_id = actor.actor_id and film_actor.actor_id = 15 and film.rating = 'G' and film.special_features like '%behind the scenes%';
+
+6- select film.film_id, film.title, actor.actor_id, concat(actor.first_name , " " , actor.last_name) as name
+from film, actor, film_actor
+where film.film_id=film_actor.film_id and actor.actor_id=film_actor.actor_id and film_actor.film_id = 369;
+
+7- select film.title, film.description, film.release_year, film.rating, film.special_features, category.name
+from film, film_category, category
+where film.film_id=film_category.film_id and category.category_id=film_category.category_id and film.rental_rate=2.99 and category.name="drama";
+
+8- select film.title, film.description, film.release_year, film.rating, film.special_features, category.name, actor.first_name, actor.last_name 
+from film, actor, film_actor,category, film_category
+where film.film_id=film_actor.film_id and actor.actor_id=film_actor.actor_id and actor.first_name="SANDRA" and actor.last_name="KILMER" and category.name="action" and film.film_id=film_category.film_id and category.category_id=film_category.category_id;

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        img {
+            width: 200px;
+        }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('img').hover(function(){
+                $(this).attr('temp',$(this).attr('src')),
+                $(this).attr('src',$(this).attr('alt-src')),$(this).attr('alt-src',$(this).attr('temp'));},function(){$(this).attr('temp',$(this).attr('src')),
+                $(this).attr('src',$(this).attr('alt-src')),$(this).attr('alt-src',$(this).attr('temp'));
+			    });
+            });
+        </script>
+</head>
+<body>
+    <dv>
+        <img src="car1.jpg" alt-src= "car5.jpg" temp=""/>
+        <img src="car2.jpg" alt-src= "car6.jpg" temp="">
+        <img src="car3.jpg" alt-src= "car7.jpg" temp="">
+        <img src="car4.jpg" alt-src= "car8.jpg" temp="">
+    </dv>
+</body>
+</html>

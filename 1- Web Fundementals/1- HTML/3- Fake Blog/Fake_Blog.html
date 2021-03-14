@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Fake Blog</title>
+        <style>
+            table,
+            th,
+            td  {
+              padding: 10px;
+              border: 1px solid black;
+              border-collapse: collapse;
+                }
+          </style>
+    </head>
+    <body>
+        <h1>George Bush</h1><br>
+        <img src="https://www.smu.edu/-/media/Images/News/2016/fall/BushGeorgeW.jpg?la=en" alt="Geroge Bush Image" height=250 width=200 />
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sample Name</td>
+                    <td>an_email@gmail.com</td>
+                    <td>555-5555</td>
+                </tr>
+                <tr>
+                    <td>Another Name</td>
+                    <td>another_email@gmail.com</td>
+                    <td>444-4444</td>
+                </tr>
+                <tr>
+                    <td>last Name</td>
+                    <td>last_email@gmail.com</td>
+                    <td>555-6685</td>
+                </tr>
+            </tbody>
+        </table><br>
+        <ul>
+            <li>War in Afghanistan (2001–present)</li>
+            <li>Iraq War</li>
+            <li>September 11 attacks</li>
+            
+        </ul>
+        <a href="https://en.wikipedia.org/wiki/George_W._Bush">Learn more about me on Wikipedia</a>
+        <form action="process.php" method="post">
+            <h2>Please take short survey</h2>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name"><br><br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <input type="radio" id="yes" name="choice" value="yes">
+            <label for="yes">Yes, send me lots of emails!</label>
+            <input type="radio" id="no" name="choice" value="no">
+            <label for="no">No, please don't send me any emails!</label>
+            <input type="radio" id="die" name="choice" value="decline">
+            <label for="die">Please go kill yourself...</label>
+            <p>How did you hear about us?</p>
+            <input type="checkbox" id="facebook" name="color" value="facebook">
+            <label for="facebook">Facebook</label><br>
+            <input type="checkbox" id="newspaper" name="color" value="newspaper">
+            <label for="newspaper">Newspaper</label><br>
+            <input type="checkbox" id="referral" name="color" value="referral">
+            <label for="referral">Referral</label><br>
+            <input type="checkbox" id="other" name="color" value="other">
+            <label for="other">Other</label><br>
+            <p>Say a few words about yourself:</p>
+            <textarea name="description"></textarea><br><br> 
+            <div><input type="submit" value="Submit"></div>
+        </form>
+    </body>
+</html>

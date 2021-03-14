@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="mx-auto" style="width: 300px;">
+                    <h1>Add a Dojo</h1>
+                </div>
+                <form action="create-dojo" method="post">
+                    {% csrf_token %}
+                    <div class="mb-3 row ">
+                        <label for="inputName" class="col-sm-2 col-form-label ">Name</label>
+                        <div class="col-7 ">
+                            <input type="text" class="form-control" id="inputName" Name="name-html">
+                        </div>
+                    </div>
+                    <div class="mb-3 row ">
+                        <label for="inputCity" class="col-sm-2 col-form-label ">City</label>
+                        <div class="col-7 ">
+                            <input type="text" class="form-control" id="inputCity" Name="city-html">
+                        </div>
+                    </div>
+                    <div class="mb-3 row ">
+                        <label for="inputState" class="col-sm-2 col-form-label ">State</label>
+                        <div class="col-7 ">
+                            <input type="text" class="form-control" id="inputState" Name="state-html">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary col-2 row justify-content-around">Add</button>
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="col-lg-6">
+                <div class="mx-auto" style="width: 300px;">
+                    <h1>Add a Ninja</h1>
+                </div>
+                <form action="create-ninja" method="post"> {% csrf_token %}
+                    <div class="mb-3 row ">
+                        <label for="inputFirstname" class="col-sm-3 col-form-label ">First Name</label>
+                        <div class="col-7 ">
+                            <input type="text" class="form-control" id="inputFirstname" Name="first-name-html">
+                        </div>
+                    </div>
+                    <div class="mb-3 row ">
+                        <label for="inputLastname" class="col-sm-3 col-form-label ">Last Name</label>
+                        <div class="col-7 ">
+                            <input type="text" class="form-control" id="inputLastname" Name="last-name-html">
+                        </div>
+                    </div>
+                    <div class="mb-3 row ">
+                        <label for="inputDojo" class="col-sm-3 col-form-label ">Dojo</label>
+                        <div class="col-7 ">
+                            <select class="form-select" name="ninja-html">
+                                {% for dojo in all_the_Dojos %}
+                                <option value='{{dojo.id}}'>{{dojo.name}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary col-2 row justify-content-around">Add</button>
+                    </div>
+                </form>
+
+            </div>
+            <hr class="my-3 col-12" />
+            <div class="mx-auto" style="width: 300px;">
+                <h1>All the Dojos</h1>
+                <ul>
+                    {% for dojo in all_the_Dojos %}
+                    <li>Ninjas at the {{dojo.name}} <a href="/delete/{{dojo.id}}">delete</a>
+                        <ul>{% for ninja in dojo.ninja.all %}
+                            <li><em>{{ninja.first_name}} {{ninja.last_name}}</em></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+</body>
+
+</html>

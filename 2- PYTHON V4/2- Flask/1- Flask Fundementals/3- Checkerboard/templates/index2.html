@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<body>
+    <main>
+        <table>
+            {% for x in range(0, columns_html): %}
+                {% if x % 2 != 0: %}
+                <tr>
+                    {% for y in range(0, rows_html): %}
+                        {% if y % 2 != 0: %}
+                        <td style="background-color: {{color2_html}};
+                        width: 40px;
+                        height: 40px;"></td>
+                        {% elif y % 2 == 0: %}
+                        <td style="background-color: {{color1_html}};
+                        width: 40px;
+                        height: 40px;"></td>
+                        {% endif %}
+                    {% endfor %}
+                </tr>
+                {% elif x % 2 == 0: %}
+                <tr>
+                    {% for y in range(0, rows_html): %}
+                        {% if y % 2 != 0: %}
+                        <td style="background-color: {{color1_html}};
+                        width: 40px;
+                        height: 40px;"></td>
+                        {% elif y % 2 == 0: %}
+                        <td style="background-color: {{color2_html}};
+                        width: 40px;
+                        height: 40px;"></td>
+                        {% endif %}
+                    {% endfor %}
+                </tr>
+                {% endif %}
+            {% endfor %}
+        </table>
+    </main>
+</body>
+
+</html>

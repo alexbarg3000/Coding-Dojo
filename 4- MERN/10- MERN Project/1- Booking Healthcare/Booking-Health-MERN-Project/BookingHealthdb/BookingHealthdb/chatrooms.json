@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "6036ac4ff6637728bc882bbc"
+  },
+  "messages": [
+    {
+      "$oid": "6036ac6af6637728bc882bbd"
+    }
+  ],
+  "roomName": "Kamal Nouri - undefined undefined",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036d7a4b524c01f8013aec2"
+  },
+  "messages": [],
+  "roomName": "Manar Hasan - undefined undefined",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6036d858c099ef31ccb3f286"
+  },
+  "messages": [],
+  "roomName": "Yasmeen Muhtaseb - undefined undefined",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603754743e001324bc5932e0"
+  },
+  "messages": [
+    {
+      "$oid": "6037547a3e001324bc5932e1"
+    }
+  ],
+  "roomName": "KamalNouri",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603754923e001324bc5932e2"
+  },
+  "messages": [
+    {
+      "$oid": "60375bf43e001324bc5932e6"
+    },
+    {
+      "$oid": "60375c303e001324bc5932e8"
+    }
+  ],
+  "roomName": "AlexBarghouti",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603754aa3e001324bc5932e3"
+  },
+  "messages": [
+    {
+      "$oid": "603754ae3e001324bc5932e4"
+    },
+    {
+      "$oid": "60375c183e001324bc5932e7"
+    }
+  ],
+  "roomName": "YasmeenMuhtaseb",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60375ca03e001324bc5932e9"
+  },
+  "messages": [
+    {
+      "$oid": "60375cbb3e001324bc5932ea"
+    }
+  ],
+  "roomName": "YasmeenMuhtaseb6036ce845ba3231d4c733625",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60375cec3e001324bc5932eb"
+  },
+  "messages": [
+    {
+      "$oid": "60375cf03e001324bc5932ec"
+    }
+  ],
+  "roomName": "YasmeenMuhtaseb6036ce845ba3231d4c7336256036b77e6b2f032ed4d01307",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60375d1b3e001324bc5932ed"
+  },
+  "messages": [
+    {
+      "$oid": "60375d743e001324bc5932ee"
+    },
+    {
+      "$oid": "60375d8d3e001324bc5932ef"
+    }
+  ],
+  "roomName": "6036ce845ba3231d4c7336256036b77e6b2f032ed4d01307",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60375efc3e001324bc5932f1"
+  },
+  "messages": [
+    {
+      "$oid": "60375f013e001324bc5932f2"
+    },
+    {
+      "$oid": "60375f173e001324bc5932f3"
+    }
+  ],
+  "roomName": "6036ce845ba3231d4c7336256036b73c6b2f032ed4d01306",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603773633e001324bc5932fa"
+  },
+  "messages": [
+    {
+      "$oid": "6037736a3e001324bc5932fb"
+    },
+    {
+      "$oid": "603773833e001324bc5932fc"
+    },
+    {
+      "$oid": "603773d83e001324bc5932fd"
+    },
+    {
+      "$oid": "603773e53e001324bc5932fe"
+    }
+  ],
+  "roomName": "6036ce845ba3231d4c7336256036b7a96b2f032ed4d01308",
+  "__v": 0
+}]
