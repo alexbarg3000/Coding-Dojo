@@ -14,7 +14,7 @@ Start coding!
 Please fix this very ugly code!
 
 Create a new file in your Text Editor (VS Code, Atom, Sublime...) and properly indent the code below:
-<aside>
+```HTML
 
 <!DOCTYPE html>
 <html>
@@ -32,10 +32,10 @@ I love HTML!
 </p>
 </body>
 </html>
-</aside>
-
+```
 Please note that most of the tags in the code below have not been discussed yet. But at this point, you already know what opening and closing tags look like. Without knowing the HTML tags, determine what the parents, children, and siblings are by properly indenting the code below:
-<aside>
+
+```HTML
 
 <!DOCTYPE html>
 <html>
@@ -71,5 +71,5 @@ Please note that most of the tags in the code below have not been discussed yet.
     </ul>
     </body>
 </html>
-</aside>
+```
 
