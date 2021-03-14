@@ -2,10 +2,15 @@ Create a fake blog using only HTML. Your blog can be about anything! Your hobbie
 
 
 HTML
+
 head, title, meta description, 
+
 body, div, a, p, h1, ul, li, table (including thead, td, tbody, tr)
+
 At the bottom of the page, create a fake survey form that uses the following tags:
+
 form, select, input type="text", input type="checkbox", input type="radio", input type="submit".
+
 
 
 You can use one of the Lorem Ipsum generators for dummy text. Here is an example of how you may want your blog to look:
