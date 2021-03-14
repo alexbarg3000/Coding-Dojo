@@ -1,0 +1,11 @@
+<div class="module_description active_lesson_with_video ">
+									
+<h2>Assignment: Debugging jQuery</h2><p>Learning how to write correct code is important, obviously. However, learning how to spot errors and debug code is an invaluable skill as well. For this assignment, you need to clone <a href="https://github.com/Codingdojo-Trey/Debugging-jQuery/tree/error_version" target="_blank">this Github repo</a> and find all the errors. Note that the correct version of the code is contained in another branch of this repository. Don't clone it or look at it unless you are really struggling. There are 5 mistakes in the jQuery/JavaScript code for you to find. When you have corrected all of the code, make sure to test the page and see if the code is working the way it should!</p><p>The command to <em>clone</em> a <strong>specific branch</strong> from Github is:</p>
+<pre class="">git clone -b *branch name* *url to repository*
+</pre><p>So, the command you should run to <em>clone</em> the<strong> error_version</strong> of this repository will be:</p>
+<pre class="">git clone -b error_version https://github.com/Codingdojo-Trey/Debugging-jQuery.git
+</pre><p>This page is a mock landing page for a business. The errors are mostly syntax errors, but there is one key piece of coding missing that specifically relates to jQuery--you must find this error first. Once you have found the 5 errors within the jQuery portion of the code, the website should do the following:</p><ul>
+ <li>When the survey button is clicked, the page should alert the user with the message that is specified on the code.</li> <li>When either one of the images is clicked, it should slide up and hide. When either one of the small headers underneath each picture is clicked, it should slide down and unhide the images.</li> <li>When any of the text within the<em> red </em>div is hovered on, it should turn white. This includes the list items and headers.</li> <li>When the link in the <em>red </em>div is clicked, an alert box should pop up containing a message.</li></ul><p>Check the code line by line--a few of the errors may be hard to spot, but that is on purpose.</p><p>
+ <em>Do not spend more than 2-3 hours on this assignment.</em></p>
+        
+</div>
