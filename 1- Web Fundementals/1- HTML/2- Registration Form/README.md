@@ -6,7 +6,9 @@ Now that we've learned about all of the different types of form tags, let's crea
 Recreate all the html elements shown on the image above! As you haven't learned yet how to use css to make the form look nice, don't worry about how your registration form looks for now.
 
 Your HTML should contain the following tags:
+
 <img width="263" alt="registration" src="https://user-images.githubusercontent.com/58928470/111057700-31c4ba00-8492-11eb-9db0-0767d0ee99e4.png">
+
 
 <input> with these values in the "type" attribute:
 text
