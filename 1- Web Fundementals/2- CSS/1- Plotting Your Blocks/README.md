@@ -1,7 +1,12 @@
+Plotting Your Blocks
+
+
+Try to duplicate the image below by adjusting the CSS code provided. Use margins and paddings to adjust the spaces between divisions and use the display property to be able to put each block in its proper place. You may need additional CSS properties.
+
 
 
 Here's the HTML code:
-
+```hmtl
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -21,7 +26,10 @@ Here's the HTML code:
       </div><!-- end of wrapper -->
    </body>
 </html>
+```
+
 And CSS:
+```html
 
 /*CSS reset settings here*/
 *{ 
@@ -57,6 +65,8 @@ And CSS:
  width: 660px;
  background-color: purple;
 }
+```
+
 Do not spend longer than 2-3 hours on this assignment. 
 
 While you do this assignment, please use min-height as well as vertical align to give minimum height to the division and also to vertically align some of the inline-blocks.  Also, please do NOT use float (use display:inline-block instead).
