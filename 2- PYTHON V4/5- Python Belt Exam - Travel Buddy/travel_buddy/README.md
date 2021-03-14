@@ -9,3 +9,6 @@ Display of a particular travel plan which also indicates the list of users who j
 The newly added travel plan should appear on logged user's Trip schedule table. 
 You must be able to deploy your work to Amazon EC2 and provide the IP address or subdomain/domain name to where your work has been deployed. 
 Please note that Heroku deployment is not honored.
+
+![c-travelbuddy](https://user-images.githubusercontent.com/58928470/111087233-253f7080-8529-11eb-86af-1bd61c8ffc33.png)
+
